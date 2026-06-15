@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  signal_type: MyString
+  ticker: MyString
+  entry_price: 9.99
+  score: 1
+  triggered_at: 2026-06-15 21:04:36
+
+two:
+  signal_type: MyString
+  ticker: MyString
+  entry_price: 9.99
+  score: 1
+  triggered_at: 2026-06-15 21:04:36

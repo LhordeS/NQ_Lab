@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  signal: one
+  return_5m: 9.99
+  return_15m: 9.99
+  return_30m: 9.99
+  return_60: 9.99
+
+two:
+  signal: two
+  return_5m: 9.99
+  return_15m: 9.99
+  return_30m: 9.99
+  return_60: 9.99
