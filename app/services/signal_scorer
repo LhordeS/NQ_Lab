@@ -1,1 +1,16 @@
+class SignalScorer
+  def initialize(data)
+    @data = data
+  end
 
+  def score
+    score = 0
+
+    score += 25 if @data[:above_vwap]
+    score += 25 if @data[:ema_aligned]
+    score += 25 if @data[:high_volume]
+    score += 25 if @data[:momentum]
+
+    score
+  end
+end

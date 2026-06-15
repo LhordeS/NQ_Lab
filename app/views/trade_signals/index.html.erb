@@ -1,0 +1,23 @@
+<h1>Trade Signals</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Type</th>
+      <th>Ticker</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @trade_signals.each do |signal| %>
+      <tr>
+        <td><%= signal.triggered_at %></td>
+        <td><%= signal.signal_type %></td>
+        <td><%= signal.ticker %></td>
+        <td><%= signal.score %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
